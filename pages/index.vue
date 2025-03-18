@@ -23,7 +23,7 @@
   
 <script setup>
   const resume = {
-    name: "Видякин Егор Викторович",
+    name: "Комиссарова Арина Григорьевна",
     position: "Frontend-разработчик",
     experience: [
       { company: "Network Graphics", position: "Frontend-разработчик", years: "2021-2025" },
