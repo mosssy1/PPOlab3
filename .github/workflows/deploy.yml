@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Clone repository
         uses: actions/checkout@v3
 
       - name: Setup Node.js
@@ -24,7 +24,7 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Generate static site
+      - name: Generate static files
         run: npm run generate
 
       - name: Deploy to GitHub Pages
